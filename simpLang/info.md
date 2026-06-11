@@ -241,10 +241,10 @@ These work anywhere without importing stdlib:
 
 | Function | What it does | Example |
 |----------|-------------|---------|
-| `convert_to_txt(value)` | Turn anything into text | `convert_to_txt(42)` → `"42"` |
-| `convert_to_num(text)` | Turn text into a whole number | `convert_to_num("10")` → `10` |
-| `convert_to_decimal(text)` | Turn text into a decimal | `convert_to_decimal("3.14")` → `3.14` |
-| `convert_to_list(value)` | Split into a list of characters | `convert_to_list("hi")` → `["h", "i"]` |
+| `to_text(value)` | Turn anything into text | `to_txt(42)` → `"42"` |
+| `to_number(text)` | Turn text into a whole number | `to_num("10")` → `10` |
+| `to_decimal(text)` | Turn text into a decimal | `to_decimal("3.14")` → `3.14` |
+| `to_list(value)` | Split into a list of characters | `to_list("hi")` → `["h", "i"]` |
 | `get_type(value)` | Tell you the type of a value | `get_type("hi")` → `"txt"` |
 
 ---

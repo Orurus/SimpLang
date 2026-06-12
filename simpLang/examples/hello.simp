@@ -35,7 +35,7 @@ loop n = 1 to 6
         say(convert_to_txt(n) + " is small")
     end
 
-    if n is bigger than or equal to 3
+    if n is bigger or equal to 3
         say(convert_to_txt(n) + " is big enough")
     end
 

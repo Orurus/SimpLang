@@ -1,0 +1,15 @@
+import stdlib
+number = math_random(1, 100)
+guess = 0
+
+loop while guess is not equal to number
+    guess = convert_to_num(ask("Guess a number: "))
+    
+    if guess is bigger than number
+        say("too big!")
+    else if guess is smaller than number
+        say("too small!")
+    else
+        say("Spot on!")
+    end
+end
